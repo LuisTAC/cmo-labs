@@ -1,0 +1,4 @@
+1.
+[http://inf-server.inf.uth.gr/courses/CE433/tutorials/GSM%20Transceiver.pdf]
+[http://analog.intgckts.com/wireless-receiver-sensitivity/]
+The GSM standard specifies a minimum -102 dBm sensitivity.
