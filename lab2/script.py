@@ -1,5 +1,13 @@
 import fileinput
 import re
+import plotly
+import plotly.plotly as py
+import plotly.graph_objs as go
+
+import numpy as np
+
+plotly.tools.set_credentials_file(username='MaclighterX8', api_key='0AQhRtD0rdU0xrD2iqPJ')
+
 
 def parse_line(line):
     split = re.split("\s", line) # split line on whitespaces
@@ -52,4 +60,13 @@ for line in fileinput.input(input("File?")):
 
 for index, item in enumerate(counters):
     print("<{} : {}".format(index*10,item))
+
 print("total : {}".format(total))
+
+
+data = [go.Bar(
+            x=['<0', '<10', '<20', '<30', '<40', '<50', '<60', '<70'],
+            y=counters
+    )]
+
+py.iplot(data, filename='CMO Lab2 - ' + fileinput.filename())
