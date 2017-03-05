@@ -70,3 +70,22 @@ K=4/3
 
 6.
 
+
+7.
+fc = 900MHz
+cell radius = 100m
+G1 = 1
+min power = 10uW
+
+PGdb = 20log(((f/c)*sqrt(G1))/(4pi))-20log(d)
+
+	= 20log(97(12pi)) - 20log(100)
+
+	= -120.75db
+
+
+PGdb = 10log(Pr/Ps)
+
+<=> -120.75 = 10log((10*10^-6)/Ps)
+
+<=> Ps = 1.75W
