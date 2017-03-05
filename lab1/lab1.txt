@@ -36,3 +36,11 @@ IEEE 802.15.1-2005 "Part 15.1: Wireless medium access control (MAC) and physical
 Page 49
 "The reference sensitivity level is –70 dBm."
 "The receiver sensitivity shall be below or equal to –70 dBm (...)"
+
+4.
+Freq. bands				Applications						Power 
+2400.0 - 2483.5 MHz		wideband data transmission system	100mW e.i.r.p.
+5.15 - 5.35 GHz			wideband data transmission system	200mW mean e.i.r.p.
+5.47 - 5,725 GHz		wideband data transmission system	1W mean e.i.r.p.
+17.1 - 17.3 GHz			wideband data transmission system	100 mW e.i.r.p.
+57.0 - 66.0 GHz			wideband data transmission system	40 dBm mean e.i.r.p.
