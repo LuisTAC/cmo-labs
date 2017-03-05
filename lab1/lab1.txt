@@ -11,3 +11,28 @@ WLAN:
 Bluetooth:
 [http://ece.wpi.edu/analog/resources/bluetooth_a.pdf]
 The requirement for a Bluetooth receiver is an actual sensitivity level of –70 dBm (1e-10 W) or better.
+
+2.
+[http://www.tp-link.pt/products/details/cat-9_AD7200.html#specifications]
+AD7200 - Reception Sensitivity
+	11g 6Mbps: -95dBm
+	11g 54Mbps: -78dBm
+
+3.
+GSM:
+[https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=275]
+TS 05.56 8.0.1 "GSM Cordless Telephony System (CTS), Phase 1; CTS-Fixed Part (FP) radio subsystem"
+Page 13, 2nd table (Frequency band / GSM 900 CTS-FP - dBm)
+
+WLAN:
+[http://standards.ieee.org/getieee802/download/802.11-2012.pdf]
+IEEE 802.11-2012 "Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications"
+Page 1477
+"The sensitivity is defined as the minimum signal level required for an FER of 3% for PSDUs of 400 octets generated with pseudorandom data. The sensitivity shall be less than or equal to –80 dBm. The reference sensitivity is defined as –80 dBm for the 1 Mb/s FH PHY specifications."
+
+Bluetooth:
+[http://standards.ieee.org/getieee802/download/802.15.1-2005.pdf]
+IEEE 802.15.1-2005 "Part 15.1: Wireless medium access control (MAC) and physical layer (PHY) specifications for wireless personal area networks (WPANs)"
+Page 49
+"The reference sensitivity level is –70 dBm."
+"The receiver sensitivity shall be below or equal to –70 dBm (...)"
