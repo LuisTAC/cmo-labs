@@ -44,3 +44,29 @@ Freq. bands				Applications						Power
 5.47 - 5,725 GHz		wideband data transmission system	1W mean e.i.r.p.
 17.1 - 17.3 GHz			wideband data transmission system	100 mW e.i.r.p.
 57.0 - 66.0 GHz			wideband data transmission system	40 dBm mean e.i.r.p.
+
+5.
+[https://moodle.up.pt/pluginfile.php/103521/mod_resource/content/6/wireless-transmission-part1.pdf - slide 13]
+K=4/3
+	a)
+	h1=100; h2=0
+	d = 3750*(sqrt(K*h1)+sqrt(K*h2))
+	 = 3750*(sqrt(K*100)+sqrt(K*0))
+	 = 3750*(sqrt(400/3)+0)
+	 = 3750*(20/sqrt(3))
+	 = 25000*sqrt(3)
+	 ~ 43301.270 m
+
+	b)
+	h1=10; d=25000*sqrt(3)
+	d=3750*(sqrt(K*h1)+sqrt(K*h2))
+	 <=> 25000*sqrt(3) = 3750*(sqrt(K*10)+sqrt(K*h2))
+	 <=> (25000*sqrt(3))/3750 = sqrt(K*10)+sqrt(K*h2)
+	 <=> (25000*sqrt(3))/3750-sqrt(K*10) = sqrt(K*h2)
+	 <=> ((25000*sqrt(3))/3750-sqrt(K*10))^2 = K*h2
+	 <=> (((25000*sqrt(3))/3750-sqrt(K*10))^2)/K = h2
+	 <=> h2 = 3*(((25000*sqrt(3))/3750-sqrt((4/3)*10))^2)/4
+	 <=> h2 ~ 46.754 m
+
+6.
+
