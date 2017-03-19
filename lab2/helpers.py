@@ -1,5 +1,6 @@
 import re
 import plotly
+from operator import itemgetter
 
 plotly.tools.set_credentials_file(username='MaclighterX8', api_key='0AQhRtD0rdU0xrD2iqPJ')
 
@@ -8,6 +9,18 @@ def string_to_array(line):
     split = re.split("\s", line)  # split line on whitespaces
     split = filter(None, split)  # remove whitespaces
     return list(split)
+
+
+def collect(l, index):
+    return map(itemgetter(index), l)
+
+
+def get_index(list_of_tuples, index_to_compare, value):
+    for index, item in enumerate(list_of_tuples):
+        if item[index_to_compare] == value:
+            return index
+
+    return None
 
 
 # DATA HELPERS
